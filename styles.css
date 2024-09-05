@@ -1,0 +1,84 @@
+body{
+    color:rgb(0, 0, 0);
+    background: #9b1801;
+    margin: 0px;
+    font-family: "Sevillana", cursive;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 8px rgb(255, 11, 186);
+    padding: 20px;
+    font-size:22px;
+    color: rgb(122, 121, 211);
+}
+
+.chamada {
+    background: rgb(128, 21, 138);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex ;
+    justify-content: center;
+}
+
+.lily{
+    margin-right: 5%;
+}
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+    color:rgb(141, 80, 255)
+}
+h4{
+    font-size: 50px;
+    color:rgb(141, 80, 255)
+}
+p{
+font-size:25px;
+}
+
+.atlas{
+    display: flex;
+    overflow-x: auto;
+    gap:5px;
+}
+
+.rylecoco{
+padding-left: 40px;
+padding-right: 40px;
+margin-top: 50px;
+} 
+
+.atlas img{
+opacity: 0.3;
+height: 200px;
+}
+.atlas img:hover{
+opacity: 3.0 ;
+border:5px solid rgb(255, 0, 0);
+}
+.rylecoco h2 {
+color:rgb(255, 80, 226);
+}
+.rylee{
+    display: flex;
+    overflow-x: auto;
+    gap:5px;
+}
+
+.rylee img{
+    opacity: 0.3;
+    height: 200px;}
+
+.rylee img:hover{
+    opacity: 3.0 ;
+    border:5px solid rgb(255, 0, 0);
+}
+
+
