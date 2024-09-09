@@ -7,10 +7,10 @@ body{
 }
 
 header {
-    border-bottom: solid 8px rgb(255, 11, 186);
     padding: 20px;
     font-size:22px;
     color: rgb(122, 121, 211);
+    text-align: center;
 }
 
 .chamada {
@@ -19,6 +19,8 @@ header {
     padding-top: 40px;
     display: flex ;
     justify-content: center;
+    border-top:solid 8px rgb(255, 11, 186) ;
+    border-bottom: solid 8px rgb(255, 11, 186);
 }
 
 .lily{
